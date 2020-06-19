@@ -1,0 +1,47 @@
+body{
+    font-size: 80; font-family: sans-serif; font-style: normal;
+    background-color: white;
+}
+.header nav{float: inline-end; word-spacing: 20px; font-size: 13px;}
+#nav1 p{
+    display: inline; position: relative;
+}
+a{
+    text-decoration: none;  color: black;
+}
+p #a{color: rgb(168, 90, 241); font-size: 100px; font-weight: 50;}
+p #b{color: rgb(230, 66, 66); font-size: 80px; font-weight: bold;}
+p #c{color: darkorange; font-size: 80px; font-weight: bold;}
+p #d{color: rgb(166, 112, 218); font-size: 80px; font-weight: bold;}
+p #e{color: rgb(241, 62, 62); font-size: 80px; font-weight: bold;}
+p #f{color: rgb(243, 55, 93); font-size: 80px; font-weight: bold;}
+form{
+    text-align: center; word-spacing: 10px;
+}
+form #g{height: 40px; width: 40%; border-radius: 25px; outline: none; border-width: 1px;}
+@media screen and (max-width: 800px){form #g{width: 80%;} 
+}
+form #h{height: 35px; width: 120px; border-radius: 5px; font-size: 16px; font-weight: 100; border: none;}
+form #i{height: 35px; width: 140px; border-radius: 5px; font-size: 15px; font-weight: 100; border: none;}
+#div{text-align: center; word-spacing: 10px;}
+#div p{display: inline;}
+@media screen and (max-width: 800px){#div #z{position: relative; text-align: center; padding-top: opx;}}
+.footer{
+    word-spacing: 20px; position: fixed; bottom: 0; width: 100%; padding: 0px 10px 0px 10px; background-color: rgb(248, 239, 247);
+}
+#footer p{
+    display: inline; word-spacing: 5px;
+}
+@media screen and (max-width: 800px){#y{padding-right: 20%;}}
+hr{width: 100%; padding-left: 0px; opacity: 0.2;}
+.mainNav a{
+    color: black;
+    padding: 0;
+    font-size: 14px;
+    display: block;
+}
+.mainNav{display: none;}
+.mainNav p{font-size: 15px;}
+.mainNav a.icon{
+    background: white; display: block; position: absolute; left: 0; top: 0;
+}
